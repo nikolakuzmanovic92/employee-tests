@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Salary",
+      "salary": "asd",
+      "duration": "10",
+      "grade": "7",
+      "email": "testuser1@mail.com"
+    },
+    {
+      "name": "Duration",
+      "salary": "1000.5",
+      "duration": "10.5",
+      "grade": "7",
+      "email": "testuser1@mail.com"
+    },
+    {
+      "name": "Grade",
+      "salary": "1000.5",
+      "duration": "10",
+      "grade": "7.5",
+      "email": "testuser1@mail.com"
+    }
+  ]
+
