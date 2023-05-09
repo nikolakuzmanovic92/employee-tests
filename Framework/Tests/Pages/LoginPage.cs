@@ -27,10 +27,8 @@ namespace Tests.Pages
         {
             if (user == "" || pass == "")
             {
-                //var path = Path.Combine(Directory.GetCurrentDirectory(), "Resources\\AdminCredentials.json");
+                //Environment variables should be used instead of having them in json.
                 var path = Path.Combine(Path.GetFullPath(@"../../../../Tests/"), "Resources\\LoginResource\\AdminCredentials.json");
-                //string path = AppDomain.CurrentDomain.BaseDirectory + "Resources\\AdminCredentials.json";
-
                 Dictionary<string, string> credentialsJson = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(path));
                 Username.SendKeys(credentialsJson["username"]);
                 Password.SendKeys(credentialsJson["password"]);
