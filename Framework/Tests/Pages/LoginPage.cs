@@ -23,7 +23,7 @@ namespace Tests.Pages
         IWebElement LogintBtn => Driver.FindElement(logintBtnBy);
         IWebElement RegisterLink => Driver.FindElement(registerLinkBy);
 
-        public void Login(string user = "", string pass = "")
+        public void Login(string user = "", string pass = "")   //This method will be converted to API call
         {
             if (user == "" || pass == "")
             {
